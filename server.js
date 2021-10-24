@@ -10,7 +10,7 @@ const app = express();
 
 
 
-
+server.applyMiddleware({ app });
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
