@@ -4,6 +4,7 @@ import { Container } from 'react-bootstrap'
 //import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Home from './components/pages/Home'
 
 // const client = new ApolloClient({
 //   uri: "/graphql",
@@ -16,7 +17,7 @@ function App() {
     <Header />
     <main className='py-3'>
       <Container>
-   <h1> Welcome to Aston Jeremiah's online boutique </h1>
+   <Home />
    </Container>
    </main>
    <Footer />

@@ -18,5 +18,7 @@ const products = [
         category: 'Casual',
         price: 56.99,
         leftInStock: 5,
-    }
+    },
 ]
+
+export default products

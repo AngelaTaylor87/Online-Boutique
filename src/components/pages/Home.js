@@ -1,10 +1,18 @@
 import React from 'react'
+import { Row, Col } from 'react-bootstrap'
+import products from '../../products'
 
 const Home = () => {
     return (
-        <div>
-            <h1> Welcome to Aston Jeremiah's Boutique </h1>
-        </div>
+        <>
+            <h1> Fall Fashion </h1>
+            <Row>
+{products.map(product => 
+    <Col>
+    <h3>{product.name}</h3> 
+    </Col>)}
+            </Row>
+        </>
     )
 }
 
