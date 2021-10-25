@@ -9,6 +9,7 @@ const products = [
         price: 34.99,
         leftInStock: 6,
         Reviews: 5,
+        rating: 4.9,
     },
     {
         _id: 2,
@@ -20,6 +21,7 @@ const products = [
         price: 56.99,
         leftInStock: 5,
         Reviews: 9,
+        rating: 5,
     },
 ]
 
