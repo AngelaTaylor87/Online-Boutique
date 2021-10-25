@@ -1,16 +1,19 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
+import Product from '../Product'
 import products from '../../products'
+
 
 const Home = () => {
     return (
         <>
             <h1> Fall Fashion </h1>
             <Row>
-{products.map(product => 
-    <Col>
-    <h3>{product.name}</h3> 
-    </Col>)}
+                {products.map(product => (
+                    <Col>
+                        <h3>{product.name}</h3>
+                        <Product product={product} />
+                    </Col>))}
             </Row>
         </>
     )

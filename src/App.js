@@ -11,7 +11,7 @@ import Home from './components/pages/Home'
 //   cache: new InMemoryCache(),
 // });
 
-function App() {
+const App = () => {
   return (
     <> 
     <Header />
