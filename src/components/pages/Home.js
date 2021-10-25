@@ -10,7 +10,7 @@ const Home = () => {
             <h1> Fall Fashion </h1>
             <Row>
                 {products.map(product => (
-                    <Col>
+                    <Col key={product._id}>
                         <h3>{product.name}</h3>
                         <Product product={product} />
                     </Col>))}
