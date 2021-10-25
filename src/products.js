@@ -8,6 +8,7 @@ const products = [
         category: 'Casual',
         price: 34.99,
         leftInStock: 6,
+        Reviews: 5,
     },
     {
         _id: 2,
@@ -18,6 +19,7 @@ const products = [
         category: 'Casual',
         price: 56.99,
         leftInStock: 5,
+        Reviews: 9,
     },
 ]
 
