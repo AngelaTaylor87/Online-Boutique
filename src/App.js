@@ -1,10 +1,12 @@
 //import { div } from "prelude-ls";
 import React from "react";
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Container } from 'react-bootstrap'
 //import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from './components/pages/Home'
+import ProductPage from "./components/pages/ProductPage";
 
 // const client = new ApolloClient({
 //   uri: "/graphql",
@@ -13,15 +15,18 @@ import Home from './components/pages/Home'
 
 const App = () => {
   return (
+    <Router>
     <> 
     <Header />
     <main className='py-3'>
       <Container>
-   <Home />
+   <Route path='/' component={Home} exact />
+   <Route path='/product/:id' component={ProductPage} />
    </Container>
    </main>
    <Footer />
     </>
+    </Router>
   )
 }
 
