@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Row, Col, Image, ListGoup, Card, Button, ListGroup } from 'react-bootstrap'
-import Rating from '../Rating'
+//import Rating from '../Rating'
 import products from '../../products'
 
 const ProductPage = ({ match }) => {
@@ -13,7 +13,7 @@ const ProductPage = ({ match }) => {
         </Link>
         <Row>
             <Col md={6}>
-                <Image src={product.image} alt={product.name} />
+                <Image src={process.env.PUBLIC_URL + product.image} alt={product.name} />
             </Col>
             <Col md={3}>
                 <ListGroup>
