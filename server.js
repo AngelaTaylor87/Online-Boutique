@@ -1,4 +1,5 @@
 const express = require('express');
+//const products = require('./src/products')
 const path = require('path');
 const { ApolloServer } = require('apollo-server-express');
 
@@ -8,7 +9,13 @@ const db = require('./config/connection');
 const PORT = process.env.PORT || 8000;
 const app = express();
 
+// app.get('/', (req, res) => {
+//   res.send('API is running!')
+// })
 
+// app.get('/api/products', (req, res) => {
+//   res.json(products)
+// })
 
 
 

@@ -8,10 +8,10 @@ import Footer from "./components/Footer";
 import Home from './components/pages/Home'
 import ProductPage from "./components/pages/ProductPage";
 
-// const client = new ApolloClient({
+//  const client = new ApolloClient({
 //   uri: "/graphql",
 //   cache: new InMemoryCache(),
-// });
+//});
 
 const App = () => {
   return (

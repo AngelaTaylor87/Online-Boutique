@@ -27,7 +27,7 @@ const products = [
         _id: 3,
         name: 'Shoes',
         image: '/images/shoes.jpg',
-        description: 'A strapless shoe, can be worn any season.',
+        description: 'A strapless shoe, which can be worn any season.',
         brand: 'Aston Jeremiah',
         category: 'Casual',
         price: 76.99,
