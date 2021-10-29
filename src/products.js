@@ -1,7 +1,7 @@
 const products = [
     {
         _id: 1,
-        name: 'Romper',
+        name: 'Rompers',
         image: '/images/romper.jpg',
         description: 'A effortless jumpsuit. Adorable lightweight fabric in a feminine design, making this romper a great option for effortless style this all year long.',
         brand: 'Aston Jeremiah',
@@ -13,7 +13,7 @@ const products = [
     },
     {
         _id: 2,
-        name: 'Dress',
+        name: 'Dresses',
         image: '/images/dress.jpg',
         description: 'A strapless dress, bodice style sleeveless dress with neckline and thin shoulder straps.',
         brand: 'Aston Jeremiah',
@@ -34,6 +34,30 @@ const products = [
         leftInStock: 8,
         Reviews: 5,
         rating: 5,
+    },
+    {
+        _id: 4,
+        name: 'Pants',
+        image: '/images/wide-leg-pants.jpg',
+        description: 'Business casual pants, which can be worn any season.',
+        brand: 'Aston Jeremiah',
+        category: 'Business/Casual',
+        price: 83.99,
+        leftInStock: 4,
+        Reviews: 30,
+        rating: 4.5,
+    },
+    {
+        _id: 5,
+        name: 'Sets',
+        image: '/images/2-piece-set.jpg',
+        description: 'Great for a casual night out, which can be worn any season.',
+        brand: 'Aston Jeremiah',
+        category: 'Casual',
+        price: 112.99,
+        leftInStock: 2,
+        Reviews: 14,
+        rating: 4.7,
     },
 ]
 
