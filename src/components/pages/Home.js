@@ -1,10 +1,22 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Row, Col } from 'react-bootstrap'
 import Product from '../Product'
 import products from '../../products'
 
 
-const Home = () => {
+
+
+const Home = () => {//setProducts
+    //const [products] = useState([])
+
+    // useEffect(() => {
+    //     const fetchProducts = async () => {
+    //         const { data } = await app.get('/api/products')
+            
+    //         setProducts(data)
+    //     }
+    //     fetchProducts()
+    // }, [])
     return (
         <>
             <h1> Fall Fashion </h1>
