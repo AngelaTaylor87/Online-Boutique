@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap'
 //import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Home from './components/pages/Home'
+import HomePage from './components/pages/HomePage'
 import ProductPage from "./components/pages/ProductPage";
 
 //  const client = new ApolloClient({
@@ -20,7 +20,7 @@ const App = () => {
     <Header />
     <main className='py-3'>
       <Container>
-   <Route path='/' component={Home} exact />
+   <Route path='/' component={HomePage} exact />
    <Route path='/product/:id' component={ProductPage} />
    </Container>
    </main>

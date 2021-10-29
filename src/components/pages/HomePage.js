@@ -6,7 +6,7 @@ import products from '../../products'
 
 
 
-const Home = () => {//setProducts
+const HomePage = () => {//setProducts
     //const [products] = useState([])
 
     // useEffect(() => {
@@ -31,7 +31,7 @@ const Home = () => {//setProducts
     )
 }
 
-export default Home
+export default HomePage
 
 
 
