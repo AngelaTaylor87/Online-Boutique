@@ -6,7 +6,9 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomePage from './pages/HomePage'
 import ProductPage from "./pages/ProductPage";
-//import SignupPage from './components/SignupPage'
+import CartPage from './pages/CartPage'
+// import LoginPage from "./components/LoginPage";
+
 
 //  const client = new ApolloClient({
 //   uri: "/graphql",
@@ -19,11 +21,14 @@ const App = () => {
     
     <Header />
     <main className='py-3'>
+      
       <Container>
       
 
+      <Route path='/cart' component={CartPage} exact />
+
    <Route path='/product/:id' component={ProductPage} />
-   {/* <Route path='/signup' component={SignupPage} exact /> */}
+     
    <Route path='/' component={HomePage} exact />
    
    </Container>

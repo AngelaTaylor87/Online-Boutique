@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Online-Boutique/static/css/main.28c4206e.chunk.css",
+    "main.js": "/Online-Boutique/static/js/main.c7c54311.chunk.js",
+    "main.js.map": "/Online-Boutique/static/js/main.c7c54311.chunk.js.map",
+    "runtime-main.js": "/Online-Boutique/static/js/runtime-main.c62b13b3.js",
+    "runtime-main.js.map": "/Online-Boutique/static/js/runtime-main.c62b13b3.js.map",
+    "static/js/2.015e61ca.chunk.js": "/Online-Boutique/static/js/2.015e61ca.chunk.js",
+    "static/js/2.015e61ca.chunk.js.map": "/Online-Boutique/static/js/2.015e61ca.chunk.js.map",
+    "static/js/3.287df17b.chunk.js": "/Online-Boutique/static/js/3.287df17b.chunk.js",
+    "static/js/3.287df17b.chunk.js.map": "/Online-Boutique/static/js/3.287df17b.chunk.js.map",
+    "index.html": "/Online-Boutique/index.html",
+    "static/css/main.28c4206e.chunk.css.map": "/Online-Boutique/static/css/main.28c4206e.chunk.css.map",
+    "static/js/2.015e61ca.chunk.js.LICENSE.txt": "/Online-Boutique/static/js/2.015e61ca.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c62b13b3.js",
+    "static/js/2.015e61ca.chunk.js",
+    "static/css/main.28c4206e.chunk.css",
+    "static/js/main.c7c54311.chunk.js"
+  ]
+}
