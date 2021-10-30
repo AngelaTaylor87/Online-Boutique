@@ -59,6 +59,18 @@ const products = [
         Reviews: 14,
         rating: 4.7,
     },
+    {
+        _id: 6,
+        name: 'Necklace',
+        image: '/images/necklace.jpg',
+        description: 'Sterling silver necklace.',
+        brand: 'Aston Jeremiah',
+        category: 'Casual',
+        price: 250.00,
+        leftInStock: 8,
+        Reviews: 5,
+        rating: 5,
+    },
 ]
 
-export default products
+module.exports = products
