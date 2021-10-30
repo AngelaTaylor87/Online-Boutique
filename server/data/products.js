@@ -67,7 +67,7 @@ const products = [
         brand: 'Aston Jeremiah',
         category: 'Casual',
         price: 250.00,
-        leftInStock: 8,
+        leftInStock: 0,
         Reviews: 5,
         rating: 5,
     },
