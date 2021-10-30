@@ -6,9 +6,7 @@ const path = require('path')
 
 const app = express();
 
-app.get('/', (req, res) => {
-  res.send('api runs...')
-})
+
 
 app.get('/api/products', (req, res) => {
   console.log(products)
