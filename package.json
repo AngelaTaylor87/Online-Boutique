@@ -14,8 +14,9 @@
   "author": "Angela Taylor",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "6.3.0"
-    
-   
+    "concurrently": "6.3.0",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^4.46.0",
+    "webpack-dev-server": "^3.11.1"
   }
 }
