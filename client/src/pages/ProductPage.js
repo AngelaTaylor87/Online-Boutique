@@ -17,7 +17,7 @@ const ProductPage = ({ match }) => {
             setProduct(data)
        }
          fetchProduct()
-     }, [])
+     }, [match])
     return ( <>
         <Link className='btn btn-dark my-3' to='/'> 
         Back
@@ -62,7 +62,7 @@ const ProductPage = ({ match }) => {
                             </Row>
                         </ListGroup.Item>
                         <ListGroup.Item>
-                            <Button className='btn-block' type='button' disabled={product.leftInStock == 0}>
+                            <Button className='btn-block' type='button' disabled={product.leftInStock === 0}>
                                 Add to cart
                             </Button>
                         </ListGroup.Item>
