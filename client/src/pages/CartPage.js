@@ -6,17 +6,17 @@ import { Row } from 'react-bootstrap'
 
 const CartPage = () => {
 
-    // const [products, setProducts] = useState([])
+//     const [products, setProducts] = useState([])
 
-    //  useEffect(() => {
+//      useEffect(() => {
          
-    //     const fetchProducts = async () => {
-    //         const { data } = await axios.get('/api/products')
+//         const fetchProducts = async () => {
+//             const { data } = await axios.get('/api/products')
             
-    //         setProducts(data)
-    //    }
-    //      fetchProducts()
-    //  }, [])
+//             setProducts(data)
+//        }
+//          fetchProducts()
+//      }, [])
 
     return (
         <>

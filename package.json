@@ -18,5 +18,8 @@
     "html-webpack-plugin": "^4.5.0",
     "webpack": "^4.46.0",
     "webpack-dev-server": "^3.11.1"
+  },
+  "dependencies": {
+    "mongoose": "^6.0.12"
   }
 }
