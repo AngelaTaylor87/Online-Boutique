@@ -1,6 +1,6 @@
 const products = [
     {
-        _id: 1,
+       
         name: 'Rompers',
         image: '/images/romper.jpg',
         description: 'A effortless jumpsuit. Adorable lightweight fabric in a feminine design, making this romper a great option for effortless style this all year long.',
@@ -12,7 +12,7 @@ const products = [
         rating: 4.9,
     },
     {
-        _id: 2,
+        
         name: 'Dresses',
         image: '/images/dress.jpg',
         description: 'A strapless dress, bodice style sleeveless dress with neckline and thin shoulder straps.',
@@ -24,7 +24,7 @@ const products = [
         rating: 5,
     },
     {
-        _id: 3,
+       
         name: 'Shoes',
         image: '/images/shoes.jpg',
         description: 'A versatile shoe, which can be worn any season.',
@@ -36,7 +36,7 @@ const products = [
         rating: 5,
     },
     {
-        _id: 4,
+        
         name: 'Pants',
         image: '/images/wide-leg-pants.jpg',
         description: 'Business casual pants, which can be worn any season.',
@@ -48,7 +48,7 @@ const products = [
         rating: 4.5,
     },
     {
-        _id: 5,
+        
         name: 'Sets',
         image: '/images/2-piece-set.jpg',
         description: 'Great for a casual night out, which can be worn any season.',
@@ -60,7 +60,7 @@ const products = [
         rating: 4.7,
     },
     {
-        _id: 6,
+        
         name: 'Necklace',
         image: '/images/necklace.jpg',
         description: 'Sterling silver necklace.',
