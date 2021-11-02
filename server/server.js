@@ -1,12 +1,19 @@
-const express = require('express')
-require ('dotenv').config()
-const products =require('./data/products.js')
-const path = require('path')
+import path from 'path'
+import dotenv from 'dotenv'
+//import colors npm i colors
+import express from 'express'
+import products from './data/products.js'
 
+
+import connectDB from './config/db.js'
+
+const PORT = process.env.PORT || 8000
+
+dotenv.config()
 
 const app = express();
 
-
+connectDB()
 
 app.get('/api/products', (req, res) => {
   console.log(products)
@@ -26,6 +33,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/build/index.html'));
 });
 
-const PORT = process.env.PORT || 8000
+
 
 app.listen(PORT, console.log(`server running on ${process.env.NODE_ENV} mode on port ${PORT}`))
